@@ -1,0 +1,140 @@
+<!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:padding="20dp"-->
+    <!-->-->
+
+   <!--<LinearLayout-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="match_parent"-->
+       <!--android:orientation="vertical"-->
+       <!-->-->
+       <!--<LinearLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="0dp"-->
+           <!--android:layout_weight="1"-->
+           <!--android:orientation="horizontal"-->
+           <!-->-->
+           <!--<TextView-->
+               <!--android:layout_width="0dp"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cname"-->
+               <!--android:gravity="center"-->
+               <!--android:textColor="@android:color/white"-->
+               <!--android:background="@drawable/circle"/>-->
+           <!--<TextView-->
+               <!--android:layout_width="0dp"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:layout_weight="2"-->
+               <!--android:id="@+id/pname"/>-->
+
+           <!--</LinearLayout>-->
+       <!--<LinearLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="0dp"-->
+           <!--android:layout_weight="2"-->
+           <!-->-->
+           <!--<TextView-->
+               <!--android:layout_width="match_parent"-->
+               <!--android:layout_height="match_parent"-->
+               <!--android:id="@+id/body"-->
+               <!--android:padding="10dp"-->
+               <!--android:fontFamily="sans-serif-condensed"/>-->
+
+       <!--</LinearLayout>-->
+
+       <!--</LinearLayout>-->
+<!--</android.support.v7.widget.CardView>-->
+
+       <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!-->-->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/cname"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/pname"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/email"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/body"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-medium"/>
+
+        </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+    <!--</LinearLayout>-->

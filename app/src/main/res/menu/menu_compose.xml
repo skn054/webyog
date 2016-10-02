@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.bhanu.webyog.Compose">
+
+    <item android:id="@+id/reply" android:showAsAction="ifRoom"
+    android:title="delete" android:icon="@drawable/ic_send_black_24dp"/>
+
+</menu>
